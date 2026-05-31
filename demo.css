@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+.container{
+            min-height:600px;
+            width: 800px;
+            background-color: aqua;
+            overflow: hidden;
+            display: flex;
+            
+           
+            
+}
+
+
+
+.try{
+        height:300px;
+        width: 300px;
+       
+
+}
+
+@keyframes move{
+            from{
+                    transform: translateX(0);
+                    
+            }
+            
+            to{
+                    transform: translateX(-100%);
+            }
+
+}
+
+
+
+ .box-1{
+        background-color: black !important;
+        
+ }
+
+ .box-2{
+        background-color: rgb(134, 42, 42);
+        
+ }
+
+
+ .box-3{
+        background-color: rgb(217, 245, 6);
+        
+ }
+
+ .box-4{
+        background-color: rgb(144, 8, 135);
+        
+ }
+
+ .box-5{
+        background-color: black;
+        
+ }
+
+
+ .box-6{
+        background-color: rgb(133, 13, 254);
+        
+ }
+
+ .box-7{
+        background-color: rgb(172, 244, 19);
+        
+ }
+
+ .box-8{
+        background-color: black;
+        
+ }
+
+ .box-9{
+        background-color: rgb(68, 8, 207);
+        
+ }
+
